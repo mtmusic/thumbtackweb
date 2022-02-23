@@ -1,0 +1,25 @@
+{
+  "name": "thumbtackweb",
+  "version": "1.0.0",
+  "description": "As a firm believer in Free Open Source Software, or FOSS, I've uploaded my code to GitHub under the MIT License so you can inspect my code in detail.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./css/output.css",
+    "start": "http-server -c-1 -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtmusic/thumbtackweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtmusic/thumbtackweb/issues"
+  },
+  "homepage": "https://github.com/mtmusic/thumbtackweb#readme",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}
