@@ -1,14 +1,29 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/output.css">
+
+        <script src="js/dark_mode.js"></script>
+
         <script src="components/default.js"></script>
         <script src="components/default-prop.js"></script>
+        <script src="components/navbar.js"></script>
+        <script src="components/navbaritem.js"></script>
+        <script src="components/button.js"></script>
     </head>
-    <body>
-        <h1 class="text-3xl">Hello World!</h1>
-        <js-default></js-default>
-        <js-default-prop name="Michael"></js-default-prop>
+    <body id="body">
+        <header>
+            <js-navbar />
+        </header>
+        <main>
+            <div class="bg-gradient-to-b md:bg-gradient-to-r from-cyan-400 to-purple-500">
+                <h1 class="text-7xl text-white text-center py-10 px-5 font-bold animate-fade">Hello World!</h1>
+                <p class="text-3xl text-white text-center py-10 px-5 animate-fade">Affordable web design for your small business.</p>
+            </div>
+            <!-- <js-default></js-default>
+            <js-default-prop name="Michael"></js-default-prop> -->
+        </main>
     </body>
 </html>
